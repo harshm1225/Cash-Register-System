@@ -1,0 +1,79 @@
+:root{
+  --primary-color:#00e500;
+  --secondary-color:#000;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:math;
+}
+.container{
+  margin:1rem;
+  background-color:var(--primary-color);
+  width: 80%;
+  margin: 1rem auto;
+}
+.inner-container{
+  padding: 1rem;
+}
+h1{
+  margin-bottom: 3rem;
+  text-align: center;
+
+}
+.description{
+  font-weight: bold;
+  padding: 1rem;
+
+}
+label{
+  display: block;
+}
+input{
+  margin-top: 5px;
+  padding:0.5rem;
+  outline: none;
+  border-radius: 5px;
+  display: block;
+}
+.next-button,
+.check-button{
+  margin-top: 10px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.change-table {
+  width: 50%;
+  text-align: justify;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.change-table caption {
+  margin: 1rem auto;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+th,
+td {
+  border: 2px solid var(--secondary-color);
+  width: 0%;
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
+/* Additional Check */
+.invisible{
+  display: none;
+
+}
+.visible{
+  display: block;
+}
